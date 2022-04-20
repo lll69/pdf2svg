@@ -22,9 +22,5 @@ jobs:
       
     - name: Make
       run: make
-      
-    - name: Run check
-      run: make check
-      
-    - name: Run distcheck
-      run: make distcheck
+
+    - run: ls -alR
